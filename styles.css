@@ -8,8 +8,125 @@ body {
 
 }
 
+{
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size:12vw;
+}
+
+h2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size:7vw;
+}
+
+a:any-link {
+  color: #0FFF00;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
+a:hover {
+  color: #FFFF00;
+}
+
+a:active {
+  color: #0FFF00;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: blue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: blue;
+  margin-top: 20px;
+}
+
+.gallery {
+  line-height:0;
+  -webkit-column-count:5;
+  -webkit-column-gap:5px
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
+  }
+  
+.gallery img {
+  width:100% !important;
+  height: auto !important;
+  margin-bottom:5px;
+  }
+  
+  @media (max-width:1200px) {
+    .gallery {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1;
+      }
+     }
+ 
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
 #flashing-header {
     font-family: "Times New Roman", Times, serif;
     font-size: 12vw;
     font-weight: bold;
 }
+
+.blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
