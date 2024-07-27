@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#flashing-header {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+}
