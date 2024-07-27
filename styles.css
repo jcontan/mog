@@ -8,15 +8,17 @@ body {
 
 }
 
-{
-  box-sizing: border-box;
+#flashing-header {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50vw;
+    font-weight: bold;
 }
 
 h1 {
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  font-size:50vw;
+  font-size:12vw;
 }
 
 h2 {
@@ -40,12 +42,6 @@ a:hover {
 
 a:active {
   color: #0FFF00;
-}
-
-#flashing-header {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12vw;
-    font-weight: bold;
 }
 
 .blink {
