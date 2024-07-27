@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.getElementById('flashing-header');
-    const colors = ['red', 'green', 'white', 'cyan', 'magenta', 'yellow', 'black'];
+    const colors = ['red', '#0FFF00', 'white', 'cyan', 'magenta', 'yellow', 'black'];
     let index = 0;
 
     function changeColor() {
@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', function() {
         index = (index + 1) % colors.length;
     }
 
-    setInterval(changeColor, 2000);
+    setInterval(changeColor, 1000);
 });
