@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', function() {
         index = (index + 1) % colors.length;
     }
 
-    setInterval(changeColor, 1000);
+    setInterval(changeColor, 500);
 });
