@@ -35,19 +35,19 @@ h2 {
 }
 
 a:any-link {
-  color: #0FFF00;
+  color: #FFFFFF;
 }
 
 a:visited {
-  color: #FF0000;
+  color: #00FFFF;
 }
 
 a:hover {
-  color: #FFFF00;
+  color: #00FFFF;
 }
 
 a:active {
-  color: #0FFF00;
+  color: #00FFFF;
 }
 
 .blink {
