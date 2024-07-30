@@ -8,12 +8,6 @@ body {
 
 }
 
-#flashing-header {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 17vw;
-    font-weight: bold;
-}
-
 .clock {
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -49,41 +43,3 @@ a:active {
   color: #00FFFF;
 }
 
-.container {
-    .container 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center;     /* Center horizontally */
-    min-height: 100vh;       /* Full height of the viewport */
-    padding: 20px;
-    text-align: center;      /* Center text */
-}
-
-.logo {
-    max-width: 100%;
-    height: auto;
-}
-
-.nav-links {
-    margin-top: 20px;
-}
-
-.nav-links a {
-    margin: 0 15px; /* Adjust the margin to control spacing */
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 7vw;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-
-mog {
-    text-family: "Times New Roman," Times, serif;
-    font-weight: bold;
-    font-spacing: 0px;
-    font-size: 8vw;
-}
