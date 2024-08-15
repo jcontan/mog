@@ -12,7 +12,7 @@ body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 h2 {
   color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size:7vw;
+  font-size:5vw;
 }
 
 a:any-link {
